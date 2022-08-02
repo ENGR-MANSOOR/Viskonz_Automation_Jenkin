@@ -16,7 +16,7 @@ public class signUp {
 	public void browser_will_open() {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.println("Browser Open");
-		System.setProperty("webdriver.chrome.driver", "/Users/mansoor/eclipse-workspace/CucumberJava/src/test/resources/drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/viskonz/eclipse-workspace/CucumberJava/src/test/resources/drivers/chromedriver");
 	    
 	    driver = new ChromeDriver();
 	}
